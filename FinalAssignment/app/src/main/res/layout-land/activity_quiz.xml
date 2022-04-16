@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/q1TV"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="What is the second largest country in the world by area?"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/a1ET"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="0dp"
+            android:layout_weight="0.7"
+            android:ems="10"
+            android:hint="Enter a country"
+            android:inputType="textPersonName"
+            android:textColor="#8F0202"
+            android:textColorHint="#000000"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/q2TV"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="Which country has the official dialect of Mandarin?"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/a2ET"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="0dp"
+            android:layout_weight="0.7"
+            android:ems="10"
+            android:hint="Enter a country"
+            android:inputType="textPersonName"
+            android:textColor="#8F0202"
+            android:textColorHint="#000000"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/q3TV"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="After Brazil and Argentina, what is the third largest country in Latin America?"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/a3ET"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="0dp"
+            android:layout_weight="0.7"
+            android:ems="10"
+            android:hint="Enter a country"
+            android:inputType="textPersonName"
+            android:textColor="#8F0202"
+            android:textColorHint="#000000"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/q4TV"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="Which country is the cradle of Islam and the site of Mecca and Medina?"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/a4ET"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="0dp"
+            android:layout_weight="0.7"
+            android:ems="10"
+            android:hint="Enter a country"
+            android:inputType="textPersonName"
+            android:textColor="#8F0202"
+            android:textColorHint="#000000"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/q5TV"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="In which country is Washington, D.C. the national capital?"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/a5ET"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="0dp"
+            android:layout_weight="0.7"
+            android:ems="10"
+            android:hint="Enter a country"
+            android:inputType="textPersonName"
+            android:textColor="#8F0202"
+            android:textColorHint="#000000"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:letterSpacing="1"
+            android:onClick="onSubmitClick"
+            android:padding="0dp"
+            android:text="Submit"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            app:iconPadding="5dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

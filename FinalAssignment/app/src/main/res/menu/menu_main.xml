@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.finalassignment.MainActivity">
+
+    <item
+        android:id="@+id/search"
+        android:title="Search" />
+
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"/>
+
+    <item
+        android:id="@+id/help"
+        android:title="Help">
+        <menu>
+            <item
+                android:id="@+id/more_help"
+                android:title="More help"/>
+        </menu>
+    </item>
+
+
+</menu>
